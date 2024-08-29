@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { MagnifyingGlassIcon, PlusIcon } from "@heroicons/react/24/outline";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/note.svg";
 
 const Navbar = () => {
@@ -54,11 +54,6 @@ const Navbar = () => {
             {/* Search Icon */}
             <li className="grid items-center">
               <MagnifyingGlassIcon className="w-6 h-6 cursor-pointer" />
-            </li>
-
-            {/* New Note Icon */}
-            <li className="grid items-center">
-              <PlusIcon className="w-6 h-6 cursor-pointer" />
             </li>
           </ul>
         </nav>
