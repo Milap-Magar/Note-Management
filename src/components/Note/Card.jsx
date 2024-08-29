@@ -1,5 +1,7 @@
 import React from "react";
 import dataArray from "../../data/data";
+import Button from "./Button";
+import Download from "./Download";
 
 const Card = () => {
   return (
@@ -7,7 +9,7 @@ const Card = () => {
       {dataArray.map((data, key) => (
         <div
           key={key}
-          className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+          className="bg-white rounded-lg shadow-lg shadow-slate-300 p-6 hover:shadow-lg transition-shadow"
         >
           <figure className="mb-4">{/* Placeholder for the image */}</figure>
           <h2 className="text-xl font-semibold mb-2">{data.title}</h2>
@@ -15,6 +17,10 @@ const Card = () => {
           <span className="text-gray-500 text-sm">
             {new Date(data.createdAt).toLocaleDateString()}
           </span>
+          <div className="button-section pt-4 flex justify-between items-center">
+            <Download />
+            <Button />
+          </div>
         </div>
       ))}
     </div>
