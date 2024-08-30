@@ -50,8 +50,15 @@ const Navbar = () => {
           </div>
 
           {/* Icons */}
-          <ul className="flex items-center justify-center gap-6">
+          <ul className="flex items-center justify-center gap-2">
             {/* Search Icon */}
+            <li className="">
+              <input
+                type="search"
+                className="border border-slate-900 rounded-sm p-1"
+                placeholder="Search for notes"
+              />
+            </li>
             <li className="grid items-center">
               <MagnifyingGlassIcon className="w-6 h-6 cursor-pointer" />
             </li>
