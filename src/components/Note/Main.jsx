@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Main = () => {
   return (
-    <div className="h-full w-full bg-slate-100">
+    <div className="h-full w-full bg-sky-100">
       <Card />
     </div>
   );

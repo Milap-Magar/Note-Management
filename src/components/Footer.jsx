@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full h-full bg-sky-100 relative">
+    <footer className="w-full h-full bg-sky-300 relative">
       <div className="h-[30vh] flex flex-col justify-center items-center text-center">
         <div className="media flex flex-col gap-2">
           <span className="font-semibold font-mono text-lg">Connect me: </span>

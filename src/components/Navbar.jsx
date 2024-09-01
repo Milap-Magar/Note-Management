@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/note.svg";
+import Add from "./Add";
 
 const Navbar = () => {
   const [navState, setNavState] = useState(false);
@@ -55,7 +56,7 @@ const Navbar = () => {
             <li className="">
               <input
                 type="search"
-                className="border border-slate-900 rounded-sm p-1"
+                className="border border-slate-900 rounded-sm px-3 py-1"
                 placeholder="Search for notes"
               />
             </li>

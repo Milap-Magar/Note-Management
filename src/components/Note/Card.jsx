@@ -9,7 +9,7 @@ const Card = () => {
       {dataArray.map((data, key) => (
         <div
           key={key}
-          className="bg-white rounded-lg shadow-lg shadow-slate-300 p-6 hover:shadow-lg transition-shadow"
+          className="bg-white rounded-lg shadow-lg shadow-sky-300 p-6 hover:shadow-lg transition-shadow"
         >
           <figure className="mb-4">{/* Placeholder for the image */}</figure>
           <h2 className="text-xl font-semibold mb-2">{data.title}</h2>
