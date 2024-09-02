@@ -1,6 +1,6 @@
 import React from "react";
 import view from "../../assets/view.svg";
-import "./btn.css";
+import "./button.css";
 
 const Button = () => {
   return (

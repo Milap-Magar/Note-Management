@@ -1,14 +1,15 @@
 import React from "react";
-import { Home } from "./pages/";
-import { Footer, Navbar } from "./components/";
+import { Home, AddNewNote } from "./pages/";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/addnotes" element={<AddNewNote />} />
+      </Routes>
+    </Router>
   );
 };
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/note.svg";
-import Add from "./Add";
 
 const Navbar = () => {
   const [navState, setNavState] = useState(false);
